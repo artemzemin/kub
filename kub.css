@@ -1,22 +1,18 @@
-#container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-  }
-  
-  #rectangle {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  
-  #svg {
-    width: 10%;
-    height: 100%;
-  }
-  
-  #rect {
-    fill: rgb(4, 4, 4);
-  }
-  
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+#main-rectangle {
+  width: 220px;
+  height: 220px;
+  fill: none;
+  stroke: black;
+  stroke-width: 1px;
+}
+
+.rectangle {
+  fill: black;
+}
